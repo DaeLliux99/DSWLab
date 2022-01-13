@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ABB.Catalogo.Entidades.Core
 {
-    class Categoria
+    public class Categoria
     {
         public int IdCategoria { get; set; }
         public string DestCategoria { get; set; }

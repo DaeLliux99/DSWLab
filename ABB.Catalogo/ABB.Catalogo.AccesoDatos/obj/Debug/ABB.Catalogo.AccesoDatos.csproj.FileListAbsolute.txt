@@ -11,3 +11,16 @@ C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo\ABB.Catalogo\ABB.Catalogo.Acceso
 C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo\ABB.Catalogo\ABB.Catalogo.AccesoDatos\bin\Debug\log4net.dll
 C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo\ABB.Catalogo\ABB.Catalogo.AccesoDatos\bin\Debug\ABB.Catalogo.Utiles.dll
 C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo\ABB.Catalogo\ABB.Catalogo.AccesoDatos\bin\Debug\ABB.Catalogo.Utiles.pdb
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.AccesoDatos\obj\Debug\ABB.Catalogo.AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.AccesoDatos\obj\Debug\ABB.Catalogo.AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.AccesoDatos\obj\Debug\ABB.Catalogo.AccesoDatos.dll
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.AccesoDatos\obj\Debug\ABB.Catalogo.AccesoDatos.pdb
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.AccesoDatos\bin\Debug\ABB.Catalogo.AccesoDatos.dll
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.AccesoDatos\bin\Debug\ABB.Catalogo.AccesoDatos.pdb
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.AccesoDatos\bin\Debug\ABB.Catalogo.Entidades.dll
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.AccesoDatos\bin\Debug\ABB.Catalogo.Utiles.dll
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.AccesoDatos\bin\Debug\System.Web.Mvc.dll
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.AccesoDatos\bin\Debug\log4net.dll
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.AccesoDatos\bin\Debug\System.Web.WebPages.dll
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.AccesoDatos\bin\Debug\ABB.Catalogo.Entidades.pdb
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.AccesoDatos\bin\Debug\ABB.Catalogo.Utiles.pdb

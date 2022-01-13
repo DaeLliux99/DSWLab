@@ -19,7 +19,7 @@ namespace ABB.Catalogo.ClienteWeb.Controllers
         public ActionResult Index()
         {
             string controladora = "Usuarios";
-            string metodo = "Get";
+            //string metodo = "Get";
             List<Usuario> listaUsuarios = new List<Usuario>();
             using (WebClient usuario = new WebClient())
             {
@@ -78,17 +78,43 @@ namespace ABB.Catalogo.ClienteWeb.Controllers
         // GET: Usuarios/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            string controladora = "Usuarios";
+            string metodo = "GetUserId";
+            Usuario user = new Usuario();
+            List<Rol> listaRol = new List<Rol>();
+            listaRol = new RolLN().ListaRol();
+            listaRol.Add(new Rol());
+            ViewBag.listaRoles = listaRol;
+            using (WebClient usuario = new WebClient())
+            {
+                usuario.Headers.Clear();
+                usuario.Headers[HttpRequestHeader.ContentType] = jsonMediaType;
+                usuario.Encoding = UTF8Encoding.UTF8;
+                string rutaCompleta = rutaApi + controladora + "?IdUsuario=" + id;
+                var data = usuario.DownloadString(new Uri(rutaCompleta));
+                user = JsonConvert.DeserializeObject<Usuario>(data);
+            }
+            return View(user);
         }
 
         // POST: Usuarios/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Edit(int id, Usuario collection)
         {
+            string controladora = "Usuarios";
             try
             {
                 // TODO: Add update logic here
-
+                using (WebClient usuario = new WebClient())
+                {
+                    collection.IdUsuario = id;
+                    usuario.Headers.Clear();
+                    usuario.Headers[HttpRequestHeader.ContentType] = jsonMediaType;
+                    usuario.Encoding = Encoding.UTF8;
+                    var usuarioJson = JsonConvert.SerializeObject(collection);
+                    string rutaCompleta = rutaApi + controladora + "?IdUsuario=" + id;
+                    var resultado = usuario.UploadString(new Uri(rutaCompleta), "PUT", usuarioJson);
+                }
                 return RedirectToAction("Index");
             }
             catch
@@ -100,22 +126,42 @@ namespace ABB.Catalogo.ClienteWeb.Controllers
         // GET: Usuarios/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            string controladora = "Usuarios";
+            Usuario user = new Usuario();
+
+            using (WebClient usuario = new WebClient())
+            {
+                usuario.Headers.Clear();
+                usuario.Headers[HttpRequestHeader.ContentType] = jsonMediaType;
+                usuario.Encoding = UTF8Encoding.UTF8;
+                string rutacompleta = rutaApi + controladora + "?IdUsuario=" + id;
+                var data = usuario.DownloadString(new Uri(rutacompleta));
+                user = JsonConvert.DeserializeObject<Usuario>(data);
+            }
+            return View(user);
         }
 
         // POST: Usuarios/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        public ActionResult Delete(int id, Usuario collection)
         {
+            string controladora = "Usuarios";
             try
             {
                 // TODO: Add delete logic here
-
+                using (WebClient usuario = new WebClient())
+                {
+                    collection.IdUsuario = id;
+                    var usuarioJson = JsonConvert.SerializeObject(collection);
+                    string rutaCompleta = rutaApi + controladora + "?IdUsuario=" + id;
+                    var resultado = usuario.UploadString(new Uri(rutaCompleta), "DELETE", usuarioJson);
+                }
                 return RedirectToAction("Index");
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                string innerException = (ex.InnerException == null) ? "" : ex.InnerException.ToString();
+                throw;
             }
         }
     }

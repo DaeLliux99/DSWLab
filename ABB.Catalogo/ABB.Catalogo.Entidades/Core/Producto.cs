@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ABB.Catalogo.Entidades.Core
 {
-    class Producto
+    public class Producto
     {
         public int IdProducto { get; set; }
         public int IdCategoria { get; set; }
@@ -15,6 +15,7 @@ namespace ABB.Catalogo.Entidades.Core
         public string ModeloProducto { get; set; }
         public string LineaProducto { get; set; }
         public string GarantiaProducto { get; set; }
+        public string DescripcionTecnica { get; set; }
         public float Precio { get; set; }
         
     }

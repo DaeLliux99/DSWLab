@@ -7,3 +7,12 @@ C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo\ABB.Catalogo\ABB.Catalogo.Entida
 C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo\ABB.Catalogo\ABB.Catalogo.Entidades\bin\Debug\log4net.dll
 C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo\ABB.Catalogo\ABB.Catalogo.Entidades\bin\Debug\System.Web.Mvc.dll
 C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo\ABB.Catalogo\ABB.Catalogo.Entidades\bin\Debug\System.Web.WebPages.dll
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.Entidades\bin\Debug\ABB.Catalogo.Entidades.dll
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.Entidades\bin\Debug\ABB.Catalogo.Entidades.pdb
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.Entidades\bin\Debug\log4net.dll
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.Entidades\bin\Debug\System.Web.Mvc.dll
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.Entidades\bin\Debug\System.Web.WebPages.dll
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.Entidades\obj\Debug\ABB.Catalogo.Entidades.csproj.AssemblyReference.cache
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.Entidades\obj\Debug\ABB.Catalogo.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.Entidades\obj\Debug\ABB.Catalogo.Entidades.dll
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.Entidades\obj\Debug\ABB.Catalogo.Entidades.pdb

@@ -4,3 +4,9 @@ C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo\ABB.Catalogo\ABB.Catalogo.Utiles
 C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo\ABB.Catalogo\ABB.Catalogo.UtilesWeb\obj\Debug\ABB.Catalogo.UtilesWeb.csproj.CoreCompileInputs.cache
 C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo\ABB.Catalogo\ABB.Catalogo.UtilesWeb\obj\Debug\ABB.Catalogo.UtilesWeb.dll
 C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo\ABB.Catalogo\ABB.Catalogo.UtilesWeb\obj\Debug\ABB.Catalogo.UtilesWeb.pdb
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.UtilesWeb\obj\Debug\ABB.Catalogo.UtilesWeb.csproj.AssemblyReference.cache
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.UtilesWeb\obj\Debug\ABB.Catalogo.UtilesWeb.csproj.CoreCompileInputs.cache
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.UtilesWeb\obj\Debug\ABB.Catalogo.UtilesWeb.dll
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.UtilesWeb\obj\Debug\ABB.Catalogo.UtilesWeb.pdb
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.UtilesWeb\bin\Debug\ABB.Catalogo.UtilesWeb.dll
+C:\Users\dino_\OneDrive\Escritorio\Abb Catalogo - copia\ABB.Catalogo\ABB.Catalogo.UtilesWeb\bin\Debug\ABB.Catalogo.UtilesWeb.pdb

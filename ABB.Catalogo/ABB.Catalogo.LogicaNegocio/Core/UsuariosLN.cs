@@ -38,6 +38,19 @@ namespace ABB.Catalogo.LogicaNegocio.Core
             }
         }
 
+        public Usuario BuscaUsuarioId(int pUsuarioId)
+        {
+            try
+            {
+                UsuarioDA usuario = new UsuarioDA();
+                return usuario.BuscaUsuarioId(pUsuarioId);
+            } catch (Exception ex)
+            {
+                string innerException = (ex.InnerException == null) ? "" : ex.InnerException.ToString();
+                throw;
+            }
+        }
+
         public Usuario InsertarUsuario(Usuario usuario)
         {
             try
@@ -54,7 +67,7 @@ namespace ABB.Catalogo.LogicaNegocio.Core
         {
             try
             {
-                return new UsuarioDA().ModificarUsuario(usuario.IdUsuario,usuario);
+                return new UsuarioDA().ModificarUsuario(usuario);
             } catch(Exception ex)
             {
                 Log.Error(ex);
